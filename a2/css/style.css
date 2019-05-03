@@ -1,0 +1,53 @@
+header {
+    background-color: black;
+}
+
+header * {
+    vertical-align: middle;
+}
+
+nav {
+    float: right;
+    padding-top: 10px;
+}
+
+nav ul {
+    /* font-family: 'Cuprum', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Ubuntu', sans-serif; 
+    margin-right: 200px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    background-color: darkgrey;
+    margin: 0;
+    font-weight: bold;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: beige;
+    font-size: large;
+}
+
+nav a:hover {
+    color: gray;
+    transition: .2s;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: beige;
+    /* text-align: center; */    
+}
